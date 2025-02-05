@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "interview-scheduler"
+version = "0.1.0"
+description = ""
+authors = ["1588 <shwetha.santhosh@trenser.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+psycopg2 = "^2.9.10"
+itsdangerous = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.interview_scheduler.core.masonry.api"
