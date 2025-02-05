@@ -44,3 +44,6 @@ The server will start running on http://0.0.0.0:8420.
 Notes
 Ensure your PostgreSQL database is running and accessible by the application.
 You may need to adjust your database settings and table creation queries based on your project structure.
+
+# Future Scope
+* Can implement the user access session with tocken creation with much more security. Current implementation verifies if the user exists or not need to have a proper login channel dependency with other endpoints
