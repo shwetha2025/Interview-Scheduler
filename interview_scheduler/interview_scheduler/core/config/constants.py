@@ -21,8 +21,8 @@ class PostgreSqlCreds:
 class Secrets:
     LOCK_OUT_TIME_MINS = 60
     leeway_in_mins = 10
-    token_name = 'ZS-BrainCase'
-    issuer = "BrainCase"
+    token_name = 'Scheduler'
+    issuer = "Interview"
     session_id = "user_id"
     alg = "RS256"
 
